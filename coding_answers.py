@@ -100,13 +100,3 @@ plt.figure(3)
 question_c()
 plt.xlabel("$Basis' degrees$")
 plt.ylabel("$Error$")
-
-# # comparing the weights for polynomials of orders 4 and 11
-# Phi = phi_polynomial(X, 4)
-# w_ml = max_lik_estimate(Phi, Y)
-# print("w_ml for a polynomial basis of order 4:")
-# print(w_ml)
-# Phi2 = phi_polynomial(X, 11)
-# w_ml2 = max_lik_estimate(Phi2, Y)
-# print("w_ml for a polynomial basis of order 11:")
-# print(w_ml2)
